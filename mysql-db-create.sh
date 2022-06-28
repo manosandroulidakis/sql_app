@@ -30,5 +30,3 @@ insert into vinyl(title, duration, rotation_speed, year_of_release,price) VALUES
 insert into vinyl(title, duration, rotation_speed, year_of_release,price) VALUES ('in the court of the crimson king', 46.42, 45, 1969, 10);
 
 insert into user(name, surname, email, physical_address) VALUES ('john', 'doe', 'john_doe@johnmail.com', '34, John Doe St');
-
-python3 -m uvicorn sql_app.main:app --reload
